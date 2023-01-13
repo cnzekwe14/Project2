@@ -18,4 +18,8 @@ Transformation:
 
 Loading: 
 
-    1. The 'Olympic_Country_Data.csv' dataset was imported and converted into a MongoDB database named 'Olympic_Country_Data' with a collection named 'all_olympics'. These steps can be viewed in the 'Mogodb_Olympics.ipynb' file.    
+    1. The 'Olympic_Country_Data.csv' dataset was imported and converted into a MongoDB (non-relational) database named 'Olympic_Country_Data' with a collection named 'all_olympics'. These steps can be viewed in the 'Mogodb_Olympics.ipynb' file.    
+
+Findings: 
+
+    1. Initial findings indicate that there is a potential relationship between total number of Olympic medals a country has achieved and their Human Development Index groupings. This is observed by the top medal winning countries: US, the Soviet Union, and Great Britian also being in the 'Very High' Human Development group of the HDI dataset. However, greater analytical rigor should be applied to validate this initial observation.  
